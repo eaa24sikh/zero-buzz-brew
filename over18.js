@@ -17,7 +17,7 @@ document.getElementById("under18").addEventListener("change", (event) => {
     console.log(event.target.value)
     if (event.target.value == 'nej') {
         
-        window.location.href = "/ikkegammelnok.html"; // Skift til din ønskede side
+        window.location.href = "ikkegammelnok.html"; // Skift til din ønskede side
     }
 }
 );
