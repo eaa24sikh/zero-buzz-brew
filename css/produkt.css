@@ -1,0 +1,181 @@
+.produkter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+h1{
+    font-size: 60px
+}
+
+.produkter, .merchandise{
+    background-color: #FCE1B5;
+}
+
+.produkter, .merchandise {
+    padding: 20px;
+}
+
+.produkter article {
+    margin: 20px;
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.merchandise{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+
+.produkter img {
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.merchandise img {
+    width: auto;
+    height: auto;
+
+}
+
+.produkter h2, .merchandise h2 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.produkter p{
+    color: #666; 
+    font-size: 30px;
+}
+
+.overskrifter{
+    display: flex;
+    justify-content: center;
+}
+
+.introtekst{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #FCE1B5;
+    width: 100%;
+}
+
+.introtekst h2{
+    font-size: 40px
+}
+
+.introtekst p{
+    font-size: 30px;
+    text-align: center;
+    padding: 200px 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.produkter h2{
+    margin: 50px;
+}
+
+
+.merchandise {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+}
+
+.hoodie_merch{
+margin-top: 20px
+}
+
+.ol_beskriv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    width: 100%;
+    font-size: larger;
+}
+
+.text_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    width: 30%;
+}
+
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    width: 50%;
+    font-size: larger;
+}
+
+.baggrunds_wrapper{
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    background-color: #F9CC80;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.merch_wrapper{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.tekst_status{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status{
+    border: 1px solid black;
+    margin-left: 15px;
+    width: 30%;
+    text-align: center;
+}
+
+.til_webshop{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: larger;
+    color: black;
+    text-decoration: underline;
+}
+
+.status, p{
+    font-size: 10px;
+}

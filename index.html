@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jura:wght@700&display=swap" />
+
+    <script src="over18.js" defer></script>
+    <title>Burger</title>
+</head>
+
+<body class="body_index">
+    <header class="indexHeader">
+        <a href=index.html><img class="logo_forside" src="images/logo.png" alt="logo"></a>
+    </header>
+    <section class="indexOverskrift">
+        <h1>
+            Er du over 18 år gammel?
+        </h1>
+    </section>
+
+    <form class="spørgsmål">
+        <div class="spørgsmålJa">
+            <label for="over18">Ja</label>
+            <label class="checkbox-wrapper">
+                <input class="overUnder" type="checkbox" id="over18" name="over18" value="ja">
+                <span class="checkbox-custom"></span>
+            </label>
+        </div>
+        <div class="spørgsmålNej">
+            <label for="under18">Nej</label>
+            <label class="checkbox-wrapper">
+                <input class="checkbox-costume" type="checkbox" id="under18" name="under18" value="nej">
+                <span class="checkbox-custom"></span>
+            </label>
+        </div>
+    </form>
+
+    <footer class="footer">
+        <section class="boxOmFooterText">
+            <div class="lokation">
+                <h2 class="adresse">Adresse:</h2>
+                <h3>Sønderhøj 29 8260 Viby</h3>
+            </div>
+            <div>
+                <h2 class="kontakt">Kontakt:</h2>
+                <h3 class="info">tel: 30306055 <br>
+                    Email: zerobb@outlook.dk</h3>
+            </div>
+        </section>
+        <div class="boxOmFooterIkon">
+            <img class="socials" src="images/linkedin.svg" alt="linkedin">
+            <img class="socials" src="images/facebook.svg" alt="facebook">
+            <img class="socials" src="images/instagram.svg" alt="instagram">
+        </div>
+        <div class="boxOmFooterLogo">
+            <a class="linkFooter" href=index.html><img class="logo_footer" src="images/logo_sort_3.svg" alt="logo"></a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.overskriftOv{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin: 30px;
+    margin-top: 100px;
+}
+.underRubrikOv{
+    color: white;
+    text-align: center;
+    font-size: 27px;
+}
+.brodtekstOv{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 19%;
+    margin-right: 19%;
+    line-height: 1.8;
+    
+}

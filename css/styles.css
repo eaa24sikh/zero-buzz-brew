@@ -1,0 +1,219 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3, p, a{
+    font-family: 'Kantumruy Pro', sans-serif;
+}
+
+.body_forside {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #F9CC80;
+}
+
+.header{
+    padding: 20px;
+
+}
+
+/* Burger icon */
+#burgericon {
+    width: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* Sliding Menu */
+nav {
+    position: fixed;
+    top: 60px;
+    right: -350px; /* Initially hidden */
+    width: 300px;
+    height: 35vh;
+    box-shadow: -4px 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+    text-decoration: none;
+    background: rgba(42, 134, 169, 0.7);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 40px 40px 40px 40px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 65px;
+}
+
+/* Active class to slide in */
+nav.active {
+    transform: translateX(-250px);
+}
+
+/* Close button */
+#close {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.logo_forside{
+    width: 7%;
+    float: left;
+    margin-left: auto;
+    padding: 10px
+}
+
+.body_index{
+    background-color: #2A80A9;
+}
+.indexHeader{
+    height: 70px;
+}
+.indexOverskrift{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* kode til checkbox starter her*/
+.spørgsmål{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+/* gem normal checkbox*/
+input[type="checkbox"] {
+    display: none;
+  }
+  
+  /* normal checkbox design */
+  .checkbox-custom {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #2A80A9;
+    border-radius: 4px;
+    border: 2px solid white;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  /* Checked status */
+  input[type="checkbox"]:checked + .checkbox-custom {
+    background-color: #4caf50;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Checkmark */
+  .checkbox-custom::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 15px;
+    border: solid white;
+    border-width: 0 0 4px 4px;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  /* vis checkmark når checked */
+  input[type="checkbox"]:checked + .checkbox-custom::after {
+    opacity: 1;
+  }
+
+  label{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  margin-bottom: 10px;
+  }
+
+  .spørgsmålJa{
+    margin-right: 5%;
+  }
+
+/*kode til fotter begynder her*/
+
+.logo_footer{
+    height: 140%;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.footer{
+    display: flex;
+    margin-top: auto;
+    align-items: center;
+}
+.lokation{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+    align-items: center;
+    width: 100%;
+}
+.adresse{
+    margin-right: 2%;
+    font-size: 22px;
+}
+.info{
+    margin-top:5px;
+}
+.kontakt{
+    margin-bottom: 5px;
+    margin-top: 0px;
+    font-size: 20px;
+}
+.boxOmFooterText{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    flex:2;
+    margin-left: 40px;
+}
+.socials{
+    width: 8%;
+
+}
+.boxOmFooterIkon{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 40px;
+    width: 20%;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+
+.linkFooter{
+    width: 35%;
+}
+
+
+

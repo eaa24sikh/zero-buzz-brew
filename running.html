@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/running.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jura:wght@700&display=swap" />
+
+    <script src="konto.js" defer></script>
+    <script src="script.js" defer></script>
+    <title>Burger</title>
+</head>
+
+<body class="body_forside">
+    <header>
+        <a href=forside.html><img class="logo_forside" src="images/zbb_logo.png" alt="logo"></a>
+        <img id="burgericon" src="images/burgermenu.svg" alt="Burger Icon">
+        <nav id="menu">
+            <a id="close" href="#" style="text-align:right">X</a>
+            <a href="produkt.html">Produkt</a>
+            <a href="social.html">Social</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+    <div class="kontoPlusBillede">
+        <section class="kontoRubrik">
+            <h1>Buzz Brew Running Club</h1>
+            <p>Bliv en del af Buzz Running Club</p>
+    
+            <form class="kontoForm" action="submit-form.php" method="POST" onsubmit="showNotification(event)">
+                <div class="rowForm">
+                    <input class="kontoInput" type="text" name="name" placeholder="fornavn" required>
+                    <input class="kontoInput" type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="rowForm">
+                    <input class="kontoInput" type="text" name="lastname" placeholder="Efternavn" required>
+                    <input class="kontoInput" type="number" name="number" placeholder="telefon nr." required>
+                </div>
+                <div class="checkboxwrapper">
+                    <input class="kontoNyhedIndput" type="checkbox" id="nyhed" name="nyhed" value="nyhedbrev">
+                    <label class="tilmeldtekst" for="nyhed">Tilmeld dig nyhedsbrev</label>
+                </div>
+                <button class="kontoSubmit" type="submit">Tilmeld</button>
+            </form>
+        </section>
+        <img class="kontobillede" src="images/HeroLobbillede.png" alt="lobeklub">
+    </div>
+    
+    <!-- Popup Notification-->
+    <div id="notification" class="notification" style="display:none;">
+        <h1 class="notifRubrik">Tak for din tilmelding til vores løbeklub. </h1>
+        <div>  
+            <h2 class="notifUnderrubrik">Hvad sker der nu?</h2>
+            <p class="notifBrodtekst">Bekræftelse: Du vil snart modtage en e-mail med bekræftelse af din tilmelding samt yderligere detaljer.</p>
+            <p class="notifBrodtekst">Forberedelse: Husk at medbringe passende løbetøj og en vandflaske. Vores løb er designet til alle niveauer, så tag det i dit eget tempo.</p>
+        </div>  
+        <div>
+            <h2 class="notifUnderrubrik">Hold kontakten</h2>
+            <p class="notifBrodtekst">Følg os på sociale medier: Hold dig opdateret med de seneste nyheder, billeder og historier fra vores løb. Følg os på @zeroBuzzbrew.</p>
+            <p class="notifBrodtekst">Del dine oplevelser: Brug hashtagget #ZeroBuzzRun for at dele dine løbeoplevelser med os og resten af fællesskabet.</p>
+        </div>
+    </div>
+    
+
+    <div>
+        <h2 class="rubrikSomeBilleder">Posts fra vores SOME kanaler</h2>
+        <div class="somebilleder">
+            <img  class="someb" src="images/lob1.png" alt="lob1">
+            <img class="someb" src="images/lob2.png" alt="lob2">
+            <img class="someb" src="images/lob3.png" alt="lob3">
+            <img class="someb" src="images/lob4.png" alt="lob4">
+            <img class="someb" src="images/lob5.png" alt="lob5">
+            <img class="someb" src="images/lob6.png" alt="lob6">
+            <img class="someb" src="images/lob7.png" alt="lob7">
+            <img class="someb" src="images/lob8.png" alt="lob8">
+        </div>
+    </div>
+
+     <!--start på footer-->
+     <footer class="footer">
+        <section class="boxOmFooterText">
+            <div class="lokation">
+                <h2 class="adresse">Adresse:</h2>
+                <h3>Sønderhøj 29 8260 Viby</h3>
+            </div>
+            <div>
+                <h2 class="kontakt">Kontakt:</h2>
+                <h3 class="info">tel: 30306055 <br>
+                    Email: zerobb@outlook.dk</h3>
+            </div>
+        </section>
+        <div class="boxOmFooterIkon">
+            <img class="socials" src="images/linkedin.svg" alt="linkedin">
+            <img class="socials" src="images/facebook.svg" alt="facebook">
+            <img class="socials" src="images/instagram.svg" alt="instagram">
+        </div>
+        <div class="boxOmFooterLogo">
+            <a class="linkFooter" href=forside.html><img class="logo_footer" src="images/logo_sort_3.svg" alt="logo"></a>
+        </div>
+    </footer>
+    
+</body>
+
+</html>

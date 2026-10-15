@@ -1,0 +1,74 @@
+
+
+.topbox{
+display: flex;
+flex-direction: row;
+background-color:#FCE1B5;
+height: 37%;
+width: auto;
+
+}
+
+.rundtlogo {
+margin-left: 25%;
+margin-right: 10%;
+}
+
+.bottombox {
+    background-color: #FCE1B5;
+    height: 37%;
+    width: auto; 
+    display: flex;
+    flex-direction: row; 
+
+}
+
+
+.overskrift {
+    text-align: center;
+}
+
+.topboxclass{
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+text-align: left;
+margin-left: 25%;
+margin-top: 7%;
+}
+
+.omos {
+    text-align: left;
+    margin-left: 25%;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.valuesoverskrift{
+    text-align: center;
+}
+
+
+.ikoner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.ikontekst {
+    text-align: center;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.textbox {
+padding-left: 6%;
+padding-right: 6%;
+margin-top: 5%;
+margin-bottom: 10%;
+}

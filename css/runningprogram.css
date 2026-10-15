@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.BRC_banner_wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.header_farve {
+    background-color: #2A86A9;
+    z-index: 10;
+    position: relative;
+}
+
+.BRC_banner {
+    width: 100%;
+    height: auto;
+    display: block;
+    z-index: 0;
+}
+
+.BRC_tekst {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    color: white;
+}
+
+.BRC_tekst h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.BRC_tekst h2 {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.flexbox-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 20px;
+}
+
+.image-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.image-heading {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.image {
+    width: 90%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.BRC_subheading {
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    width: 90%;
+    color: black;
+    z-index: 2;
+    transform: translateY(-50%);
+    padding: 20px;
+}
+
+.BRC_subheading h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.BRC_subheading h2 {
+    font-size: 1.5rem;
+}
+
+.image-box {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.løb_tekst {
+    max-width: 55%;
+    line-height: 1.6;
+}
+
+.tilmeld_dig_nu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 220px;
+    background-color: #F9CC80;
+    padding: 50px;
+    margin: 50px auto;
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.tilmeld_dig_nu_billede {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.tilmeld_tekst {
+    max-width: 500px;
+    text-align: left;
+}
+
+.tilmeld_tekst h2 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    color: #000000;
+}
+
+.tilmeld_tekst p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.tilmeld_knap {
+    display: inline-block;
+    padding: 10px;
+    background-color: #2A86A9;
+    border-radius: 50px;
+    margin-top: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.læs_mere_knap {
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.læs_mere_knap:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}

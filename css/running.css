@@ -1,0 +1,107 @@
+
+.kontoPlusBillede{
+    display: flex;
+    flex-direction: row;
+}
+.kontoRubrik{
+    text-align: center;
+    margin: 0% 4% 0% 4%;
+    width: 40%;
+}
+.kontoForm{
+    display: flex;
+    flex-direction: column;
+}
+.rowForm{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.kontoInput{
+    margin: 2%;
+    width: 40%;
+    height: 30px;
+    border-radius: 3%;
+    border: white;
+}
+.kontoSubmit{
+    width: 140px;
+  height: 40px;
+  border-radius: 23px;
+  background-color: #2A80A9;
+  color: white;
+  border: none;
+  cursor: pointer;
+  align-self: self-end;
+  margin-right: 48px;
+}
+#nyhed {
+    display: inline-block !important;
+    opacity: 1;
+}
+.kontoNyhedIndput{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 4px;
+    border: white;
+    position: relative;
+    cursor: pointer;
+    justify-self: self-end;
+    flex-grow: 1.5;
+}
+.checkboxwrapper{
+   display: flex;
+   flex-direction: row;
+   width: 170px;
+   align-self: end;
+   margin-right: 50px;
+   margin-bottom: 10px;
+}
+.tilmeldtekst{
+    font-size: 15px;
+    flex-grow: 1.5;
+    text-align: left;
+}
+
+.kontobillede{
+    margin-bottom: 5%;
+}
+ /*til popup notifikation når tilmelder*/
+.notification {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #2A80A9;
+    color: white;
+    padding: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    z-index: 1000;
+    width: 400px;
+}
+.notifRubrik{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.notifUnderrubrik{
+    font-size: 17px;
+}
+.notifBrodtekst{
+    font-size: 14px;
+}
+/*nederst på side med SOME*/
+.somebilleder{
+    background-color: #FCE1B5;
+    padding: 2% 5% 2% 5%;
+}
+.someb{
+    margin: 1% 1% 0% 1%;
+}
+.rubrikSomeBilleder{
+    text-align: center;
+}
