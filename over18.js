@@ -6,7 +6,7 @@ document.getElementById("over18").addEventListener("change", (event) => {
     console.log(event.target.value)
     if (event.target.value == 'ja') {
         
-        window.location.href = "/forside.html"; // Skift til din ønskede side
+        window.location.href = "forside.html"; // Skift til din ønskede side
     }
 }
 );
